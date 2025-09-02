@@ -1,0 +1,70 @@
+body {
+  background: #f3f8fa;
+}
+
+.page-title1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #b2d37a;
+  letter-spacing: 0.02em;
+  margin: 0;
+  text-align: left;
+}
+
+.page-title2 {
+  font-family: Helvetica, sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #b2d37a;
+  letter-spacing: 0.02em;
+  margin: 0;
+  text-align: left;
+}
+
+.page-title3 {
+  font-family: Helvetica, sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #b2d37a;
+  opacity: 0.5;
+  letter-spacing: 0.02em;
+  margin: 0;
+  text-align: left;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#stage {
+  position: relative;
+  width: 960px;  /* match your canvas */
+  height: 540px; /* match your canvas */
+}
+#stage canvas {
+  
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: block;
+}
+#overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;     /* stretches to match canvas size */
+  pointer-events: none; /* don’t block mouse/keyboard */
+  z-index: 1;
+}
