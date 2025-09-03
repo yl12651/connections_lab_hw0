@@ -1,5 +1,32 @@
+/* Hint at bottom right of p5.js window */
+.try-space-hint {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  font-size: 0.98rem;
+  color: #849577;
+  opacity: 0.85;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.project-description {
+  max-width: 700px;
+  margin: 36px auto 0 auto;
+  padding: 24px 32px 20px 32px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.project-description p {
+  color: #2d4c2a;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
 body {
-  background: #f3f8fa;
+  background: #f6f9ec;
 }
 
 .page-title1 {
